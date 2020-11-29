@@ -1,0 +1,56 @@
+.App{
+  min-height: 100vh;
+  background-image: radial-gradient(circle 248px at center, #B5EAD7 0%, #a3d4c2 47%, #B5EAD7 100%);
+  font-family: Arial, Helvetica, sans-serif
+}
+
+.search-form{
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-bar{
+  width: 50%;
+  border: none;
+  padding: 10px;
+  background-color: white;
+}
+
+.search-button{
+  background: #FF9AA2;
+  border: none;
+  padding: 10px 20px;
+  color: #4e5f33;
+}
+
+.recipe{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card{
+  border-radius: 10px;
+  box-shadow: 0px 5px 20px rgb(71,71,71);
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background: white;
+  align-items: center;
+  min-width: 40%;
+}
+
+.Title{
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 100px;
+  line-height: 198px;
+  text-align: center;
+  text-decoration-line: underline;
+
+  color: #FFB7B2;
+}
